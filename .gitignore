@@ -1,0 +1,59 @@
+cmd.txt
+
+# Variables
+appsettings.Development.json
+
+# SQLite / local db
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# Others
+~$*
+*~
+CodeCoverage/
+*.tmp
+*.log
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml

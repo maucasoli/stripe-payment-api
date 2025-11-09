@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento com Stripe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment with Stripe</h1>
+
+        <form id="payment-form">
+            <label>Amount (USD)</label>
+            <input type="number" id="amount" step="0.01" value="10" required />
+
+            <label>Description</label>
+            <input type="text" id="description" value="Payment test" required />
+
+            <div id="card-element"></div>
+
+            <br>
+
+            <button type="submit" id="submit">Pay</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
