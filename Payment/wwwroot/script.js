@@ -18,8 +18,6 @@ form.addEventListener("submit", async (e) => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-            cardNumber: "4242424242424242",
-            expiryDate: "12/26",
             amount,
             currency: "usd",
             description
